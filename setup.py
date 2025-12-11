@@ -13,6 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Ghosteined/rtg_api_py",
     packages=find_packages(),
+    include_package_data=True,
+    package_data={"rtg_api": ["items.rbxm"]},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
