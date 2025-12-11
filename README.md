@@ -5,7 +5,7 @@ A Python library to make Road to Gramby's creation codes using python code, you 
 ## Installation
 
 ```bash
-pip install git+https://github.com/Ghosteined/rtg_api.git
+pip install git+https://github.com/Ghosteined/rtg_api_py.git
 ```
 
 ## Quick Start

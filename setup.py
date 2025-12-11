@@ -11,7 +11,7 @@ setup(
     description="A Python library to create roblox Road to Gramby's creation codes from code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Ghosteined/rtg_api",
+    url="https://github.com/Ghosteined/rtg_api_py",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -28,11 +28,11 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         "typing_extensions",
-        "rbxm_parser @ git+https://github.com/Ghosteined/rtg_api.git"
+        "rbxm_parser @ git+https://github.com/Ghosteined/rbxm_parser.git"
     ],
     keywords="roblox road to gramby's rtg python",
     project_urls={
-        "Bug Reports": "https://github.com/Ghosteined/rtg_api/issues",
-        "Source": "https://github.com/Ghosteined/rtg_api",
+        "Bug Reports": "https://github.com/Ghosteined/rtg_api_py/issues",
+        "Source": "https://github.com/Ghosteined/rtg_api_py",
     },
 )
