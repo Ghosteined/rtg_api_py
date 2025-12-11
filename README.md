@@ -42,7 +42,7 @@ for i in range(10):
     ball.attach(cup)
     current_part = new_part
 
-# Priting the creation code
+# Printing the creation code
 print(struct.code)
 ```
 
