@@ -104,6 +104,13 @@ class Structure:
         self._version += 1
         part.structure = self
 
+    def merge(self, target: Structure):
+        for part in target.get_all_parts():
+            part.structure = None
+            self.add(part)
+        target.parts = []
+        target._version += 1
+        
     def get_all_parts(self):
         current_parts: List[RtgPart] = []
         waiting_parts = []
